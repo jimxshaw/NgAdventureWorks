@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cf293b08b1514cf19d9feea290b6636e" Name="Diagram1">
+        <EntityTypeShape EntityType="AwkModel.AWBuildVersion" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.DatabaseLog" Width="1.5" PointX="2.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.ErrorLog" Width="1.5" PointX="4.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.sysdiagram" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.Department" Width="1.5" PointX="12.75" PointY="42.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.Employee" Width="1.5" PointX="9.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.EmployeeDepartmentHistory" Width="1.5" PointX="15" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.EmployeePayHistory" Width="1.5" PointX="12" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.JobCandidate" Width="1.5" PointX="12" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.Shift" Width="1.5" PointX="12.75" PointY="45.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.Address" Width="1.5" PointX="12" PointY="61.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.AddressType" Width="1.5" PointX="14" PointY="52.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.BusinessEntity" Width="1.5" PointX="5.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.BusinessEntityAddress" Width="1.5" PointX="16.25" PointY="34" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.BusinessEntityContact" Width="1.5" PointX="14.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.ContactType" Width="1.5" PointX="12.5" PointY="49.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.CountryRegion" Width="1.5" PointX="7.5" PointY="59.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.EmailAddress" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.Password" Width="1.5" PointX="9.75" PointY="44.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.Person" Width="1.5" PointX="7.5" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.PersonPhone" Width="1.5" PointX="12.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.PhoneNumberType" Width="1.5" PointX="10.5" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.StateProvince" Width="1.5" PointX="9.75" PointY="61.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.BillOfMaterial" Width="1.5" PointX="3" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.Culture" Width="1.5" PointX="3.75" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.Illustration" Width="1.5" PointX="3.75" PointY="12.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.Location" Width="1.5" PointX="9" PointY="41.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.Product" Width="1.5" PointX="6" PointY="22.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.ProductCategory" Width="1.5" PointX="1.5" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.ProductCostHistory" Width="1.5" PointX="8.25" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.ProductDescription" Width="1.5" PointX="3.75" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.ProductInventory" Width="1.5" PointX="11.25" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.ProductListPriceHistory" Width="1.5" PointX="8.25" PointY="24.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.ProductModel" Width="1.5" PointX="3.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.ProductModelIllustration" Width="1.5" PointX="6" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.ProductModelProductDescriptionCulture" Width="1.5" PointX="6" PointY="16" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.ProductPhoto" Width="1.5" PointX="9" PointY="37.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.ProductProductPhoto" Width="1.5" PointX="11.25" PointY="21.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.ProductReview" Width="1.5" PointX="8.25" PointY="30.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.ProductSubcategory" Width="1.5" PointX="3.75" PointY="29.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.ScrapReason" Width="1.5" PointX="9" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.TransactionHistory" Width="1.5" PointX="8.25" PointY="33.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.TransactionHistoryArchive" Width="1.5" PointX="0.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.UnitMeasure" Width="1.5" PointX="0.75" PointY="25.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.WorkOrder" Width="1.5" PointX="11.25" PointY="29" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.WorkOrderRouting" Width="1.5" PointX="13.5" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.ProductVendor" Width="1.5" PointX="14.25" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.PurchaseOrderDetail" Width="1.5" PointX="14.25" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.PurchaseOrderHeader" Width="1.5" PointX="12" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.ShipMethod" Width="1.5" PointX="9.75" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.Vendor" Width="1.5" PointX="9.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.CountryRegionCurrency" Width="1.5" PointX="17" PointY="64.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.CreditCard" Width="1.5" PointX="12" PointY="67.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.Currency" Width="1.5" PointX="9.75" PointY="70.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.CurrencyRate" Width="1.5" PointX="12" PointY="70.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.Customer" Width="1.5" PointX="12" PointY="74.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.PersonCreditCard" Width="1.5" PointX="14.25" PointY="38.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.SalesOrderDetail" Width="1.5" PointX="16.5" PointY="29" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.SalesOrderHeader" Width="1.5" PointX="14.25" PointY="64.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.SalesOrderHeaderSalesReason" Width="1.5" PointX="16.5" PointY="67.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.SalesPerson" Width="1.5" PointX="7.5" PointY="74.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.SalesPersonQuotaHistory" Width="1.5" PointX="9.75" PointY="79" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.SalesReason" Width="1.5" PointX="14.25" PointY="61.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.SalesTaxRate" Width="1.5" PointX="12" PointY="57.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.SalesTerritory" Width="1.5" PointX="7.5" PointY="62.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.SalesTerritoryHistory" Width="1.5" PointX="9.75" PointY="66.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.ShoppingCartItem" Width="1.5" PointX="8.25" PointY="50.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.SpecialOffer" Width="1.5" PointX="12" PointY="38" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.SpecialOfferProduct" Width="1.5" PointX="14.25" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.Store" Width="1.5" PointX="9.75" PointY="74.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.ProductDocument" Width="1.5" PointX="8.25" PointY="56.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.vEmployee" Width="1.5" PointX="5.75" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.vEmployeeDepartment" Width="1.5" PointX="0.75" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.vEmployeeDepartmentHistory" Width="1.5" PointX="14.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.vJobCandidate" Width="1.5" PointX="14.75" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.vJobCandidateEducation" Width="1.5" PointX="0.75" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.vJobCandidateEmployment" Width="1.5" PointX="16.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.vAdditionalContactInfo" Width="1.5" PointX="16.75" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.vStateProvinceCountryRegion" Width="1.5" PointX="16.75" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.vProductAndDescription" Width="1.5" PointX="6.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.vProductModelCatalogDescription" Width="1.5" PointX="18.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.vProductModelInstruction" Width="1.5" PointX="18.75" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.vVendorWithAddress" Width="1.5" PointX="18.75" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.vVendorWithContact" Width="1.5" PointX="18.75" PointY="16.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.vIndividualCustomer" Width="1.5" PointX="20.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.vPersonDemographic" Width="1.5" PointX="20.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.vSalesPerson" Width="1.5" PointX="20.75" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.vSalesPersonSalesByFiscalYear" Width="1.5" PointX="0.75" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.vStoreWithAddress" Width="1.5" PointX="16.75" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.vStoreWithContact" Width="1.5" PointX="20.75" PointY="18.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwkModel.vStoreWithDemographic" Width="1.5" PointX="22.75" PointY="1.5" IsExpanded="true" />
+        <AssociationConnector Association="AwkModel.FK_EmployeeDepartmentHistory_Department_DepartmentID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_Employee_Person_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_EmployeeDepartmentHistory_Employee_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_EmployeePayHistory_Employee_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_JobCandidate_Employee_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_PurchaseOrderHeader_Employee_EmployeeID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_SalesPerson_Employee_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_EmployeeDepartmentHistory_Shift_ShiftID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_Address_StateProvince_StateProvinceID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_BusinessEntityAddress_Address_AddressID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_SalesOrderHeader_Address_BillToAddressID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_SalesOrderHeader_Address_ShipToAddressID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_BusinessEntityAddress_AddressType_AddressTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_BusinessEntityAddress_BusinessEntity_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_BusinessEntityContact_BusinessEntity_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_Person_BusinessEntity_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_Store_BusinessEntity_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_Vendor_BusinessEntity_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_BusinessEntityContact_ContactType_ContactTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_BusinessEntityContact_Person_PersonID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_CountryRegionCurrency_CountryRegion_CountryRegionCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_SalesTerritory_CountryRegion_CountryRegionCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_StateProvince_CountryRegion_CountryRegionCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_EmailAddress_Person_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_Password_Person_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_Customer_Person_PersonID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_PersonCreditCard_Person_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_PersonPhone_Person_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_PersonPhone_PhoneNumberType_PhoneNumberTypeID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_SalesTaxRate_StateProvince_StateProvinceID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_StateProvince_SalesTerritory_TerritoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_BillOfMaterials_Product_ComponentID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_BillOfMaterials_Product_ProductAssemblyID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_BillOfMaterials_UnitMeasure_UnitMeasureCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_ProductModelProductDescriptionCulture_Culture_CultureID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_ProductModelIllustration_Illustration_IllustrationID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_ProductInventory_Location_LocationID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_WorkOrderRouting_Location_LocationID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_Product_ProductModel_ProductModelID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_Product_ProductSubcategory_ProductSubcategoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_Product_UnitMeasure_SizeUnitMeasureCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_Product_UnitMeasure_WeightUnitMeasureCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_ProductCostHistory_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_ProductDocument_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_ProductInventory_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_ProductListPriceHistory_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_ProductProductPhoto_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_ProductReview_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_ProductVendor_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_PurchaseOrderDetail_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_ShoppingCartItem_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_SpecialOfferProduct_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_TransactionHistory_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_WorkOrder_Product_ProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_ProductSubcategory_ProductCategory_ProductCategoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_ProductModelProductDescriptionCulture_ProductDescription_ProductDescriptionID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_ProductModelIllustration_ProductModel_ProductModelID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_ProductModelProductDescriptionCulture_ProductModel_ProductModelID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_ProductProductPhoto_ProductPhoto_ProductPhotoID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_WorkOrder_ScrapReason_ScrapReasonID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_ProductVendor_UnitMeasure_UnitMeasureCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_WorkOrderRouting_WorkOrder_WorkOrderID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_ProductVendor_Vendor_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_PurchaseOrderDetail_PurchaseOrderHeader_PurchaseOrderID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_PurchaseOrderHeader_ShipMethod_ShipMethodID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_PurchaseOrderHeader_Vendor_VendorID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_SalesOrderHeader_ShipMethod_ShipMethodID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_CountryRegionCurrency_Currency_CurrencyCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_PersonCreditCard_CreditCard_CreditCardID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_SalesOrderHeader_CreditCard_CreditCardID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_CurrencyRate_Currency_FromCurrencyCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_CurrencyRate_Currency_ToCurrencyCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_SalesOrderHeader_CurrencyRate_CurrencyRateID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_Customer_SalesTerritory_TerritoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_Customer_Store_StoreID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_SalesOrderHeader_Customer_CustomerID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_SalesOrderDetail_SalesOrderHeader_SalesOrderID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_SalesOrderDetail_SpecialOfferProduct_SpecialOfferIDProductID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_SalesOrderHeader_SalesPerson_SalesPersonID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_SalesOrderHeader_SalesTerritory_TerritoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_SalesOrderHeaderSalesReason_SalesOrderHeader_SalesOrderID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_SalesOrderHeaderSalesReason_SalesReason_SalesReasonID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_SalesPerson_SalesTerritory_TerritoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_SalesPersonQuotaHistory_SalesPerson_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_SalesTerritoryHistory_SalesPerson_BusinessEntityID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_Store_SalesPerson_SalesPersonID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_SalesTerritoryHistory_SalesTerritory_TerritoryID" ManuallyRouted="false" />
+        <AssociationConnector Association="AwkModel.FK_SpecialOfferProduct_SpecialOffer_SpecialOfferID" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
