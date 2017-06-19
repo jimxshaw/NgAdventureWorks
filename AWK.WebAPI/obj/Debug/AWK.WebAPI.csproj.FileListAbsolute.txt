@@ -102,3 +102,6 @@ C:\YX\projects\Angular1WebApi\AWK\AWK.WebAPI\bin\Microsoft.AI.Web.xml
 C:\YX\projects\Angular1WebApi\AWK\AWK.WebAPI\obj\Debug\AWK.WebAPI.csprojResolveAssemblyReference.cache
 C:\YX\projects\Angular1WebApi\AWK\AWK.WebAPI\obj\Debug\AWK.WebAPI.dll
 C:\YX\projects\Angular1WebApi\AWK\AWK.WebAPI\obj\Debug\AWK.WebAPI.pdb
+C:\YX\projects\Angular1WebApi\AWK\AWK.WebAPI\bin\AWK.Data.dll
+C:\YX\projects\Angular1WebApi\AWK\AWK.WebAPI\bin\AWK.Data.pdb
+C:\YX\projects\Angular1WebApi\AWK\AWK.WebAPI\bin\AWK.Data.dll.config
