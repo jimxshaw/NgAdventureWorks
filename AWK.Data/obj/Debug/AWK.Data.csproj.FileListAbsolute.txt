@@ -1,0 +1,10 @@
+C:\YX\projects\Angular1WebApi\AWK\AWK.Data\bin\Debug\AWK.Data.dll.config
+C:\YX\projects\Angular1WebApi\AWK\AWK.Data\bin\Debug\AWK.Data.dll
+C:\YX\projects\Angular1WebApi\AWK\AWK.Data\bin\Debug\AWK.Data.pdb
+C:\YX\projects\Angular1WebApi\AWK\AWK.Data\bin\Debug\EntityFramework.dll
+C:\YX\projects\Angular1WebApi\AWK\AWK.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\YX\projects\Angular1WebApi\AWK\AWK.Data\bin\Debug\EntityFramework.xml
+C:\YX\projects\Angular1WebApi\AWK\AWK.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\YX\projects\Angular1WebApi\AWK\AWK.Data\obj\Debug\AWK.Data.csprojResolveAssemblyReference.cache
+C:\YX\projects\Angular1WebApi\AWK\AWK.Data\obj\Debug\AWK.Data.dll
+C:\YX\projects\Angular1WebApi\AWK\AWK.Data\obj\Debug\AWK.Data.pdb

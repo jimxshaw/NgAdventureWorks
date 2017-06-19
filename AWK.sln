@@ -5,6 +5,30 @@ VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWK.WebAPI", "AWK.WebAPI\AWK.WebAPI.csproj", "{AFDB1CF8-A023-4CA4-BB02-CBD9F32BB678}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AWK.Client", "AWK.Client\", "{9511198E-B997-4C5C-9E65-9D6829737542}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53805"
+		Debug.AspNetCompiler.PhysicalPath = "AWK.Client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53805\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53805"
+		Release.AspNetCompiler.PhysicalPath = "AWK.Client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53805\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53805"
+		SlnRelativePath = "AWK.Client\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWK.Data", "AWK.Data\AWK.Data.csproj", "{0256A25E-D311-463C-98C8-786EA9BEC22F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +39,14 @@ Global
 		{AFDB1CF8-A023-4CA4-BB02-CBD9F32BB678}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFDB1CF8-A023-4CA4-BB02-CBD9F32BB678}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFDB1CF8-A023-4CA4-BB02-CBD9F32BB678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9511198E-B997-4C5C-9E65-9D6829737542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9511198E-B997-4C5C-9E65-9D6829737542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9511198E-B997-4C5C-9E65-9D6829737542}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9511198E-B997-4C5C-9E65-9D6829737542}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0256A25E-D311-463C-98C8-786EA9BEC22F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0256A25E-D311-463C-98C8-786EA9BEC22F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0256A25E-D311-463C-98C8-786EA9BEC22F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0256A25E-D311-463C-98C8-786EA9BEC22F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
