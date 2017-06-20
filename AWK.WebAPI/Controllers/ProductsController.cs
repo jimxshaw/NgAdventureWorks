@@ -20,7 +20,7 @@ namespace AWK.WebAPI.Controllers
 
             List<Models.Product> products = context.Products
                                                     .Where(p => p.ListPrice > 0)
-                                                    .Take(50)
+                                                    .Take(20)
                                                     .Select(p => new Models.Product
                                                     {
                                                         ProductId = p.ProductID,
