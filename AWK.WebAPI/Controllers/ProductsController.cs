@@ -35,6 +35,28 @@ namespace AWK.WebAPI.Controllers
             return products;
         }
 
+        // GET api/<controller>/queryString
+        public IEnumerable<Models.Product> Get(string search)
+        {
+            var context = new AwkEntities();
+
+            List<Models.Product> products = context.Products
+                                                    .Where(p => p.ListPrice > 0)
+                                                    .Take(20)
+                                                    .Select(p => new Models.Product
+                                                    {
+                                                        ProductId = p.ProductID,
+                                                        ProductName = p.Name,
+                                                        ProductCode = p.ProductNumber,
+                                                        Price = p.ListPrice,
+                                                        ReleaseDate = p.SellStartDate
+
+                                                    })
+                                                    .ToList();
+
+            return products.Where(p => p.ProductCode.Contains(search));
+        }
+
         // GET api/<controller>/5
         public string Get(int id)
         {
