@@ -20,6 +20,10 @@ namespace AWK.WebAPI
             // Web API routes
             config.MapHttpAttributeRoutes();
 
+            // Data used with our PascalCase model classes can be serialized to camelCase to be used
+            // for any client side project that needs camelCase.
+            config.Formatters.JsonFormatter.SerializerSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+
             // Enable CORS after downloading the nuget package.
             config.EnableCors();
 
