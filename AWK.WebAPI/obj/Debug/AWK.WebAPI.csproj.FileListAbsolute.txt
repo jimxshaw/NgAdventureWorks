@@ -105,3 +105,6 @@ C:\YX\projects\Angular1WebApi\AWK\AWK.WebAPI\obj\Debug\AWK.WebAPI.pdb
 C:\YX\projects\Angular1WebApi\AWK\AWK.WebAPI\bin\AWK.Data.dll
 C:\YX\projects\Angular1WebApi\AWK\AWK.WebAPI\bin\AWK.Data.pdb
 C:\YX\projects\Angular1WebApi\AWK\AWK.WebAPI\bin\AWK.Data.dll.config
+C:\YX\projects\Angular1WebApi\AWK\AWK.WebAPI\bin\System.Web.Cors.dll
+C:\YX\projects\Angular1WebApi\AWK\AWK.WebAPI\bin\System.Web.Http.Cors.dll
+C:\YX\projects\Angular1WebApi\AWK\AWK.WebAPI\bin\System.Web.Http.Cors.xml

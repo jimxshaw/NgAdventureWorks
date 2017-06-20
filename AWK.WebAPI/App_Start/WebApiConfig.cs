@@ -20,6 +20,9 @@ namespace AWK.WebAPI
             // Web API routes
             config.MapHttpAttributeRoutes();
 
+            // Enable CORS after downloading the nuget package.
+            config.EnableCors();
+
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",

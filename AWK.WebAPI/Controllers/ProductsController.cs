@@ -6,9 +6,11 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using AWK.WebAPI.Models;
+using System.Web.Http.Cors;
 
 namespace AWK.WebAPI.Controllers
 {
+    [EnableCorsAttribute("http://localhost:53805", "*", "*")]
     public class ProductsController : ApiController
     {
         // GET api/<controller>
