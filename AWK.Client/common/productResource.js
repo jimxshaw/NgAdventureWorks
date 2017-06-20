@@ -11,10 +11,11 @@
 
     // Here's the actual factory function named productResource.
     function productResource($resource, appSettings) {
-        //return $resource(appSettings.serverPath + "/api/products/:id");
+        return $resource(appSettings.serverPath + "/api/products");
 
-        // This is for URL path routing.
-        return $resource(appSettings.serverPath + "/api/products/:search");
+        // This is to test URL path routing.
+        //return $resource(appSettings.serverPath + "/api/products/id");
+        //return $resource(appSettings.serverPath + "/api/products/:search");
     }
 
 
