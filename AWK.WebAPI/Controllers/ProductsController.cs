@@ -7,6 +7,7 @@ using System.Net.Http;
 using System.Web.Http;
 using AWK.WebAPI.Models;
 using System.Web.Http.Cors;
+using System.Web.Http.OData;
 
 namespace AWK.WebAPI.Controllers
 {
@@ -14,7 +15,8 @@ namespace AWK.WebAPI.Controllers
     public class ProductsController : ApiController
     {
         // GET api/<controller>
-        public IEnumerable<Models.Product> Get()
+        [EnableQuery()] // Enables OData querying.
+        public IQueryable<Models.Product> Get()
         {
             var context = new AwkEntities();
 
@@ -32,7 +34,8 @@ namespace AWK.WebAPI.Controllers
                                                     })
                                                     .ToList();
 
-            return products;
+            // To utilize OData querying, the return type must be an IQueryable.
+            return products.AsQueryable();
         }
 
         // GET api/<controller>/queryString
