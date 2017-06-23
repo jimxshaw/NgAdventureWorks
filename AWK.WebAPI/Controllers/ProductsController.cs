@@ -38,32 +38,78 @@ namespace AWK.WebAPI.Controllers
             return products.AsQueryable();
         }
 
+        // Action not need due to using OData above.
         // GET api/<controller>/queryString
-        public IEnumerable<Models.Product> Get(string search)
+        //public IEnumerable<Models.Product> Get(string search)
+        //{
+        //    var context = new AwkEntities();
+
+        //    List<Models.Product> products = context.Products
+        //                                            .Where(p => p.ListPrice > 0)
+        //                                            .Take(20)
+        //                                            .Select(p => new Models.Product
+        //                                            {
+        //                                                ProductId = p.ProductID,
+        //                                                ProductName = p.Name,
+        //                                                ProductCode = p.ProductNumber,
+        //                                                Price = p.ListPrice,
+        //                                                ReleaseDate = p.SellStartDate
+
+        //                                            })
+        //                                            .ToList();
+
+        //    return products.Where(p => p.ProductCode.Contains(search));
+        //}
+
+        // GET api/<controller>/5
+        public Models.Product Get(int id)
         {
             var context = new AwkEntities();
 
-            List<Models.Product> products = context.Products
-                                                    .Where(p => p.ListPrice > 0)
-                                                    .Take(20)
-                                                    .Select(p => new Models.Product
-                                                    {
-                                                        ProductId = p.ProductID,
-                                                        ProductName = p.Name,
-                                                        ProductCode = p.ProductNumber,
-                                                        Price = p.ListPrice,
-                                                        ReleaseDate = p.SellStartDate
+            var product = new Models.Product();
 
-                                                    })
-                                                    .ToList();
+            if (id > 0)
+            {
+                var productEntity = context.Products.FirstOrDefault(p => p.ProductID == id);
 
-            return products.Where(p => p.ProductCode.Contains(search));
-        }
+                if (productEntity != null)
+                {
+                    product = new Models.Product
+                    {
+                        ProductId = productEntity.ProductID,
+                        ProductName = productEntity.Name,
+                        ProductCode = productEntity.ProductNumber,
+                        Price = productEntity.ListPrice,
+                        ReleaseDate = productEntity.SellStartDate
+                    };
+                }
+                else
+                {
+                    product = new Models.Product
+                    {
+                        ProductId = 1000,
+                        ProductName = "Default Name",
+                        ProductCode = "XYZ123",
+                        Price = 39.99M,
+                        ReleaseDate = DateTime.Now
+                    };
+                }
 
-        // GET api/<controller>/5
-        public string Get(int id)
-        {
-            return "value";
+
+            }
+            else
+            {
+                product = new Models.Product
+                {
+                    ProductId = 1000,
+                    ProductName = "Default Name",
+                    ProductCode = "XYZ123",
+                    Price = 39.99M,
+                    ReleaseDate = DateTime.Now
+                };
+            }
+
+            return product;
         }
 
         // POST api/<controller>

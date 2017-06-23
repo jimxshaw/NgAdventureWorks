@@ -3,7 +3,7 @@
     angular
         .module("productManagement")
         .controller("ProductListCtrl",
-                        ["productResource", ProductListCtrl]);
+                    ["productResource", ProductListCtrl]);
 
     // The registered product resource module is injected into the 
     // below function.
@@ -22,7 +22,7 @@
 
         // OData querying.
         productResource.query({
-            $filter: "startswith(ProductCode, 'SA') and Price ge 150",
+            $filter: "startswith(ProductName, 'HL')",
             $orderby: "Price desc"
         }, function (data) {
             vm.products = data;
