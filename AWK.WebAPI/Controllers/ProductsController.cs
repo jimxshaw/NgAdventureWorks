@@ -113,8 +113,23 @@ namespace AWK.WebAPI.Controllers
         }
 
         // POST api/<controller>
-        public void Post([FromBody]string value)
+        public void Post([FromBody] Models.Product product)
         {
+            var context = new AwkEntities();
+
+            if (product != null)
+            {
+                var productEntity = new Data.Product
+                {
+                    Name = product.ProductName,
+                    ProductNumber = product.ProductCode,
+                    ListPrice = product.Price,
+                    SellStartDate = product.ReleaseDate
+                };
+
+                context.Products.Add(productEntity);
+                context.SaveChanges();
+            }
         }
 
         // PUT api/<controller>/5
