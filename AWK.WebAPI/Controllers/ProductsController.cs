@@ -8,6 +8,7 @@ using System.Web.Http;
 using AWK.WebAPI.Models;
 using System.Web.Http.Cors;
 using System.Web.Http.OData;
+using System.Web.Mvc;
 
 namespace AWK.WebAPI.Controllers
 {
@@ -113,7 +114,7 @@ namespace AWK.WebAPI.Controllers
         }
 
         // POST api/<controller>
-        public void Post([FromBody] Models.Product product)
+        public IHttpActionResult Post([FromBody] Models.Product product)
         {
             var context = new AwkEntities();
 
@@ -129,12 +130,36 @@ namespace AWK.WebAPI.Controllers
 
                 context.Products.Add(productEntity);
                 context.SaveChanges();
+
+                return Ok();
             }
+
+            return NotFound();
         }
 
         // PUT api/<controller>/5
-        public void Put(int id, [FromBody]string value)
+        public IHttpActionResult Put(int id, [FromBody] Models.Product product)
         {
+            var context = new AwkEntities();
+
+            if (id > 0)
+            {
+                if (product != null)
+                {
+                    var productEntity = context.Products.FirstOrDefault(p => p.ProductID == id);
+
+                    productEntity.Name = product.ProductName;
+                    productEntity.ProductNumber = product.ProductCode;
+                    productEntity.ListPrice = product.Price;
+                    productEntity.SellStartDate = product.ReleaseDate;
+
+                    context.SaveChanges();
+
+                    return Ok();
+                }
+            }
+
+            return NotFound();
         }
 
         // DELETE api/<controller>/5
